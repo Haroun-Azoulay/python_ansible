@@ -5,11 +5,17 @@ hosts:
     identifier:
       ssh_user: user
       ssh_password: root
-      ssh_key_file: "~/.ssh/id_rsa"
+      # Use the following line to specify the path to the SSH key locally
+      # ssh_key_file: "~/.ssh/id_rsa"
+      # Use the following line to specify the path to the SSH key in your Dockerfile
+      ssh_key_file: "/app/.ssh/id_rsa"
   bastion:
     ssh_address: 127.0.0.1
     ssh_port: 2223
     identifier:
       ssh_user: user
       ssh_password: root
-      ssh_key_file: "~/.ssh/id_rsa"
+      # Use the following line to specify the path to the SSH key locally
+      # ssh_key_file: "~/.ssh/id_rsa"
+      # Use the following line to specify the path to the SSH key in your Dockerfile
+      ssh_key_file: "/app/.ssh/id_rsa"

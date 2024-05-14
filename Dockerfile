@@ -13,6 +13,9 @@ COPY commands /app/commands
 
 COPY utils /app/utils
 
+#You must add your id_rsa in ./
+COPY id_rsa /app/.ssh/id_rsa
+
 RUN pip install -r requirements.txt
 
 COPY . .
