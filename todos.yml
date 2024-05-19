@@ -28,9 +28,9 @@
 
 - module: copy
   params:
-    src: "./public"
-    dest: "/var/www/html"
-    backup: true
+    src: "/app/dummy.txt"
+    dest: "./dummy.txt"
+    backup: false
 
 - module: template
   params:
