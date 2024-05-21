@@ -30,7 +30,7 @@ Define the hosts to configure in an inventory file (inventory.yml). Each host in
 
 
 ### Screen
-![Cover](https://github.com/Haroun-Azoulay/python_MyLittleAnsible/blob/main/img/ansible.png)
+![Cover](https://github.com/Haroun-Azoulay/python_ansible/blob/main/img/ansible.png)
         
 ## 🛠️ Tech Stack
 - [Python](https://www.python.org/)
@@ -51,7 +51,7 @@ docker build -t my_image:tag .
 ### Docker run
 
 ```
-docker run --network host -ti ansible  my_image:tag
+docker run --network host -ti my_image:tag
 ```
 
 ## ❤️ Support  
